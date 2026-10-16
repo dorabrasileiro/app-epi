@@ -192,12 +192,14 @@
       <option value="100">Até R$ 100</option>
     </select>
   </div>
-  <select class="filter-select sort-select" id="product-sort" aria-label="Ordenar produtos">
-    <option value="featured">Ordenar por</option>
-    <option value="price-asc">Menor preço</option>
-    <option value="price-desc">Maior preço</option>
-    <option value="name">Nome (A–Z)</option>
-  </select>
+  <div class="sort-select">
+    <select class="filter-select" id="product-sort" aria-label="Ordenar produtos">
+      <option value="featured">Ordenar por</option>
+      <option value="price-asc">Menor preço</option>
+      <option value="price-desc">Maior preço</option>
+      <option value="name">Nome (A–Z)</option>
+    </select>
+  </div>
   <div class="product-grid" id="product-grid" aria-live="polite"></div>
   <p class="product-empty" id="product-empty" hidden>Nenhum produto encontrado com esses filtros.</p>
   <div class="box-51">
@@ -702,7 +704,6 @@
   </div>
 </div>
 <div class="box-73" id="box-199">
-  <a class="box-200" href="#box-1"></a>
   <a class="box-201 auth-provider microsoft-provider" href="https://login.microsoftonline.com/" target="_blank" rel="noopener">Continuar com Microsoft</a>
   <a class="btn-google-signup-2" href="https://accounts.google.com/" target="_blank" rel="noopener">
     <img class="google-icon" src="./assets/google-icon-2.svg" alt="google-icon">
@@ -740,7 +741,7 @@
     <button class="auth-submit signup-submit" type="submit">Criar conta</button>
     <p class="form-feedback" role="status" aria-live="polite"></p>
   </form>
-  <a class="auth-switch signup-switch" href="#box-175">Já tem uma conta? Entrar</a>
+ 
 </div>
 <div class="box-73" id="box-211">
   <a class="box-212" href="https://mail.google.com/mail/u/0/" target="_blank" rel="noopener"></a>
